@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-bhargavmungara",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "custom rules for bhargav",
   "keywords": [
     "eslint",
@@ -18,7 +18,8 @@
     "update:eslint-docs": "eslint-doc-generator"
   },
   "dependencies": {
-    "requireindex": "^1.2.0"
+    "requireindex": "^1.2.0",
+    "user": "^0.0.0"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
