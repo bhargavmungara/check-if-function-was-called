@@ -1,5 +1,5 @@
 /**
- * @fileoverview This helps you to check if the function defined was called or not
+ * @fileoverview This helps you to check if the function declared was called or not
  * @author bhargav
  */
 "use strict";
