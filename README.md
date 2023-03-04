@@ -1,8 +1,12 @@
-# eslint-plugin-bhargavmungara
+<div align="center">
+ <h1>eslint-plugin-bhargavmungara</h1>
 
-custom rules for bhargav
+ <p>Custom rules for Bhargav</p>
+</div>
 
 ## Installation
+
+This module is distributed via [npm][https://www.npmjs.com] which is bundled with [node][https://nodejs.org/en/] and should be installed as one of your project's `devDependencies`:
 
 You'll first need to install [ESLint](https://eslint.org/):
 
@@ -49,3 +53,7 @@ In the rules, change the rule-name to check-function-was-called
   }
 }
 ```
+
+### 🐛 Bugs
+
+Please file an issue for bugs, missing documentation, or unexpected behavior.
