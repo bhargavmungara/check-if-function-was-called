@@ -54,6 +54,10 @@ In the rules, change the rule-name to check-function-was-called
 }
 ```
 
+## Docs
+
+- [`bhargavmungara/check-function-was-called`](docs/rules/check-function-was-called.md)
+
 ### 🐛 Bugs
 
 Please file an issue for bugs, missing documentation, or unexpected behavior.

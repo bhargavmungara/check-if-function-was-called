@@ -1,4 +1,4 @@
-# This helps you to check if the function defined was called or not (`check-function-was-called`)
+# This helps you to check if the function declared was called or not (`check-function-was-called`)
 
 Please describe the origin of the rule here.
 
@@ -9,27 +9,35 @@ This rule aims to...
 Examples of **incorrect** code for this rule:
 
 ```js
+function add(a, b) {
+  return a + b;
+}
 
-// fill me in
-
+function init() {
+  document.querySelector(".buttons").addEventListener("click", function (e) {
+    console.log(e.target.textContent);
+  });
+}
 ```
 
 Examples of **correct** code for this rule:
 
 ```js
+function add(a, b) {
+  return a + b;
+}
 
-// fill me in
+add();
 
+function init() {
+  document.querySelector(".buttons").addEventListener("click", function (e) {
+    console.log(e.target.textContent);
+  });
+}
+
+init();
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
 
 ## When Not To Use It
 
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+When you have no functions declared on your program.
