@@ -40,4 +40,4 @@ init();
 
 ## When Not To Use It
 
-When you have no functions declared on your program.
+When you have no functions declared within your program.
