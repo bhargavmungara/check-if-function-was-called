@@ -6,7 +6,7 @@
 
 ## Installation
 
-This module is distributed via [npm][https://www.npmjs.com] which is bundled with [node][https://nodejs.org/en/] and should be installed as one of your project's `devDependencies`:
+This module is distributed via [npm](https://www.npmjs.com) which is bundled with [node](https://nodejs.org/en/) and should be installed as one of your project's `devDependencies`:
 
 You'll first need to install [ESLint](https://eslint.org/):
 
