@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-bhargavmungara",
   "version": "1.0.3",
-  "description": "custom rules for bhargav",
+  "description": "Custom rules for bhargav",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -10,6 +10,14 @@
   "author": "bhargav",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhargavmungara/check-if-function-was-called"
+  },
+  "bugs": {
+    "url": "https://github.com/bhargavmungara/check-if-function-was-called/issues"
+  },
+  "homepage": "https://github.com/bhargavmungara/check-if-function-was-called#readme",
   "scripts": {
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
